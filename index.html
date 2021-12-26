@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="#">
+    <script defer src="./script/script.js"></script>
+    <title>Sidz Album</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <img src="./images/360839397051211.png" alt="" class="logo">
+            <li class="list"><a href="https://open.spotify.com/album/13lMLnHs5qsmm687oRc3VC?si=ay7h_jt6QgGO1Zj77GFl1g"
+                    target="__blank">Home</a></li>
+            <li class="list"><a href="https://en.wikipedia.org/wiki/Tickets_to_My_Downfall " target="__blank">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songs-container">
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>title track</span>
+                </div>
+                <audio class='audio ' id='title track'>
+                    <source src='./songs/title-track.mp3'>
+                </audio>
+
+                <div><span class="play-pause" id=0>&#9658</span></div>
+            </div>
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>kiss kiss</span>
+                </div>
+                <audio class='audio' id='kiss kiss'>
+                    <source src='./songs/kiss kiss.mp3'>
+                </audio>
+
+                <div><span class="play-pause" id=1>&#9658</span></div>
+            </div>
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>drunk face</span>
+                </div>
+                <audio class='audio'>
+                    <source src="./songs/drunk face.mp3">
+                </audio>
+
+                <div><span class="play-pause" id=2>&#9658;</span>
+                </div>
+            </div>
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>bloody valentine</span>
+                </div>
+                <audio class='audio'>
+                    <source src="./songs/bloody valentine.mp3">
+                </audio>
+
+                <div><span class="play-pause" id=3>&#9658;</span>
+                </div>
+            </div>
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>forget me too</span>
+                </div>
+                <audio class='audio'>
+                    <source src="./songs/forget me too.mp3">
+                </audio>
+
+                <div><span class="play-pause" id=4>&#9658;</span>
+                </div>
+            </div>
+            <div class="song">
+                <div class="title">
+                    <img src="./images/2f87afe4-f727-4f78-b82f-444d2a75fd9a.sized-1000x1000.jpg" alt="">
+                    <span class='songName'>all I know</span>
+                </div>
+                <audio class='audio'>
+                    <source src="./songs/all I know.mp3">
+                </audio>
+
+                <div><span class="play-pause" id=5>&#9658;</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="player">
+        <div id='time-stamp'>00:00</div>
+        <div class="time-bar" id='time-bar'>
+            <div class="completed" id='completed'></div>
+            <div class="scroller"></div>
+        </div>
+        <div class="control">
+            <div id="songDisplay">
+                <div class="bar bar_animation"></div>
+                <div class="bar bar_animation"></div>
+                <div class="bar bar_animation"></div>
+                <span id="songNameDisplay"></span>
+            </div>
+            <div>
+                <span class='play' id='previous'>&#x23ee;</span>
+                <span class='play' id='play'>&#x23f5;</span>
+                <span class='play' id='next'>&#x23ed;</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
